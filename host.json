@@ -1,8 +1,13 @@
 {
-    "version": "2.0",
-    "logging": {
-        "logLevel": {
-          "RainstormTech.Storm.ImageProxy": "Information"
-        }
-      }
+  "version": "2.0",
+  "extensions": {
+    "http": {
+      "routePrefix": "customPrefix"
+    }
+  },
+  "logging": {
+    "logLevel": {
+      "RainstormTech.Storm.ImageProxy": "Information"
+    }
+  }
 }
